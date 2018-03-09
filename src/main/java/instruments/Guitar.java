@@ -9,6 +9,6 @@ public class Guitar extends Instrument {
 
     @Override
     public String play() {
-        return null;
+        return "Guitar sound";
     }
 }

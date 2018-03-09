@@ -10,6 +10,6 @@ public class Drum extends Instrument {
 
     @Override
     public String play() {
-        return null;
+        return "Drum sound";
     }
 }

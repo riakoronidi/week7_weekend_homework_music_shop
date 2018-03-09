@@ -10,11 +10,16 @@ public class ViolinTest {
 
     @Before
     public void setUp() throws Exception {
-        violin = new Violin(50.00, 120.00, "Stringable", "wood", "oak dark");
+        violin = new Violin(50.00, 120.00, "String Instrument", "Wood", "oak dark");
     }
 
     @Test
     public void testCanGetColour() {
         assertEquals("oak dark", violin.getColour());
+    }
+
+    @Test
+    public void testCanGetSound() {
+        assertEquals("Violin sound", violin.play());
     }
 }

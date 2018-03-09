@@ -14,4 +14,16 @@ public class Item {
         this.retailPrice = retailPrice;
         this.type = type;
     }
+
+    public double getWholesalePrice() {
+        return wholesalePrice;
+    }
+
+    public double getRetailPrice() {
+        return retailPrice;
+    }
+
+    public String getType() {
+        return type;
+    }
 }
