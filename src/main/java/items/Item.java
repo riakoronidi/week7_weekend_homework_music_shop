@@ -23,7 +23,7 @@ public class Item implements ISell{
     }
 
     @Override
-    public double sell() {
+    public double calculateMarkup() {
         return retailPrice - wholesalePrice;
     }
 }

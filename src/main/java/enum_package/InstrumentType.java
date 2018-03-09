@@ -16,10 +16,4 @@ public enum InstrumentType {
         return this.decriptionType;
     }
 
-
-
-
-
-
-
 }

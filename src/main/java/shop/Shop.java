@@ -34,4 +34,13 @@ public class Shop {
     public Item removeItem() {
         return stock.remove(0);
     }
+
+    public double getProfit() {
+        double sum = 0;
+        for (Item item: stock){
+            double profit = item.calculateMarkup();
+            sum += profit;
+        }
+        return sum;
+    }
 }

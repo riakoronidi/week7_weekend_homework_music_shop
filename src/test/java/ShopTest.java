@@ -37,4 +37,12 @@ public class ShopTest {
         shop.removeItem();
         assertEquals(0, shop.getStockSize());
     }
+
+    @Test
+    public void testGetProfit() {
+        shop.addItem(item);
+        shop.addItem(item);
+        shop.addItem(item);
+        assertEquals(6000.00, shop.getProfit(),0.01);
+    }
 }
