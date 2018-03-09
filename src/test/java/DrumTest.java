@@ -24,4 +24,5 @@ public class DrumTest {
     public void testGetType() {
         assertEquals(InstrumentType.PERCUSSION, drum.getInstrumentType());
     }
+
 }
