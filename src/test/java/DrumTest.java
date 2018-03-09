@@ -12,7 +12,7 @@ public class DrumTest {
 
     @Before
     public void setUp() throws Exception {
-        drum = new Drum(1000.00, 3000.00, "Percussion Instrument", "Metal", "silver", InstrumentType.PERCUSSION);
+        drum = new Drum(1000.00, 3000.00, "Metal", "silver", InstrumentType.PERCUSSION);
     }
 
     @Test

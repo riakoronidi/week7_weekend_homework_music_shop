@@ -8,8 +8,8 @@ public class Drum extends Instrument {
     Drum drum;
     InstrumentType instrumentType;
 
-    public Drum(double wholesalePrice, double retailPrice, String type, String material, String colour, InstrumentType instrumentType) {
-        super(wholesalePrice, retailPrice, type, material, colour);
+    public Drum(double wholesalePrice, double retailPrice, String material, String colour, InstrumentType instrumentType) {
+        super(wholesalePrice, retailPrice, material, colour);
         this.drum = drum;
         this.instrumentType = instrumentType;
     }

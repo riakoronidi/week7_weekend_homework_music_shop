@@ -1,10 +1,20 @@
 package instruments;
 
+import enum_package.InstrumentType;
 import items.Instrument;
 
 public class Violin extends Instrument {
-    public Violin(double wholesalePrice, double retailPrice, String type, String material, String colour) {
-        super(wholesalePrice, retailPrice, type, material, colour);
+
+    Violin violin;
+    InstrumentType instrumentType;
+
+    public Violin(double wholesalePrice, double retailPrice, String material, String colour, InstrumentType instrumentType) {
+        super(wholesalePrice, retailPrice, material, colour);
+        this.instrumentType = instrumentType;
+    }
+
+    public InstrumentType getInstrumentType() {
+        return instrumentType;
     }
 
     @Override
