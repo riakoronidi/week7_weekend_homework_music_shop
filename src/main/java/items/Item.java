@@ -1,7 +1,9 @@
 package items;
 
 
-public class Item {
+import behaviours.ISell;
+
+public class Item implements ISell{
 
     private double wholesalePrice;
     private double retailPrice;
@@ -20,4 +22,8 @@ public class Item {
         return retailPrice;
     }
 
+    @Override
+    public double sell() {
+        return retailPrice - wholesalePrice;
+    }
 }
