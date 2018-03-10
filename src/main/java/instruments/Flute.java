@@ -20,6 +20,6 @@ public class Flute extends Instrument {
 
     @Override
     public String play() {
-        return "Flute sound";
+        return "tootle-too";
     }
 }

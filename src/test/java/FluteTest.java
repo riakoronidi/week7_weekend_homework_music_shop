@@ -23,6 +23,6 @@ public class FluteTest {
 
     @Test
     public void testCanGetSound() {
-        assertEquals("Flute sound", flute.play());
+        assertEquals("tootle-too", flute.play());
     }
 }

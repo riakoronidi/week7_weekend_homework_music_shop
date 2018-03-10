@@ -18,7 +18,7 @@ public class DrumTest {
 
     @Test
     public void testCanGetSound() {
-        assertEquals("Drum sound", drum.play());
+        assertEquals("badum tish", drum.play());
     }
 
     @Test

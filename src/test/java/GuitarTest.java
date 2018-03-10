@@ -12,7 +12,7 @@ public class GuitarTest {
 
     @Before
     public void setUp() throws Exception {
-        guitar = new Guitar(20.00, 50.00, "Mahogany", "brown", InstrumentType.STRING);
+        guitar = new Guitar(20.00, 50.00, "Mahogany", "brown", InstrumentType.STRING, 6);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class GuitarTest {
 
     @Test
     public void testCanGetSound() {
-        assertEquals("Guitar sound", guitar.play());
+        assertEquals("neeeow", guitar.play());
     }
 
     @Test

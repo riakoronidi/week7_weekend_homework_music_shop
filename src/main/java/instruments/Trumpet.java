@@ -7,10 +7,12 @@ public class Trumpet extends Instrument {
 
     Trumpet trumpet;
     InstrumentType instrumentType;
+    int numberOfValves;
 
-    public Trumpet(double wholesalePrice, double retailPrice, String material, String colour, InstrumentType instrumentType) {
+    public Trumpet(double wholesalePrice, double retailPrice, String material, String colour, InstrumentType instrumentType, int numberOfValves) {
         super(wholesalePrice, retailPrice, material, colour);
         this.instrumentType = instrumentType;
+        this.numberOfValves = numberOfValves;
     }
 
     public InstrumentType getInstrumentType() {
@@ -19,6 +21,6 @@ public class Trumpet extends Instrument {
 
     @Override
     public String play() {
-        return "Trumpet sound";
+        return "pah-pa-rah";
     }
 }

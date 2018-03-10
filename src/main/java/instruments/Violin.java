@@ -19,6 +19,6 @@ public class Violin extends Instrument {
 
     @Override
     public String play() {
-        return "Violin sound";
+        return "tooorn";
     }
 }

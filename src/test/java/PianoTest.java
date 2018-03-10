@@ -12,7 +12,7 @@ public class PianoTest {
 
     @Before
     public void setUp() throws Exception {
-        piano = new Piano(500.00, 1200.00, "Basswood", "black", InstrumentType.PERCUSSION);
+        piano = new Piano(500.00, 1200.00, "Basswood", "black", InstrumentType.PERCUSSION, 88);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class PianoTest {
 
     @Test
     public void testCanGetSound() {
-        assertEquals("Piano sound", piano.play());
+        assertEquals("plink plink", piano.play());
     }
 
     @Test

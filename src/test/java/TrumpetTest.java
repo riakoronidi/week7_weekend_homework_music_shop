@@ -13,7 +13,7 @@ public class TrumpetTest {
 
     @Before
     public void setUp() throws Exception {
-        trumpet = new Trumpet(50.00, 120.00, "Brass", "red", InstrumentType.WIND);
+        trumpet = new Trumpet(50.00, 120.00, "Brass", "red", InstrumentType.WIND, 4);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class TrumpetTest {
 
     @Test
     public void testCanGetSound() {
-        assertEquals("Trumpet sound", trumpet.play());
+        assertEquals("pah-pa-rah", trumpet.play());
     }
 
     @Test

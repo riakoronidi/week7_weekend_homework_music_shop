@@ -8,10 +8,12 @@ public class Guitar extends Instrument {
 
     Guitar guitar;
     InstrumentType instrumentType;
+    private int numberOfStrings;
 
-    public Guitar(double wholesalePrice, double retailPrice, String material, String colour, InstrumentType instrumentType) {
+    public Guitar(double wholesalePrice, double retailPrice, String material, String colour, InstrumentType instrumentType, int numberOfStrings) {
         super(wholesalePrice, retailPrice, material, colour);
         this.instrumentType = instrumentType;
+        this.numberOfStrings = numberOfStrings;
     }
 
     public InstrumentType getInstrumentType() {
@@ -19,6 +21,6 @@ public class Guitar extends Instrument {
     }
     @Override
     public String play() {
-        return "Guitar sound";
+        return "neeeow";
     }
 }

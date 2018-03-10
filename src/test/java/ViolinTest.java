@@ -22,7 +22,7 @@ public class ViolinTest {
 
     @Test
     public void testCanGetSound() {
-        assertEquals("Violin sound", violin.play());
+        assertEquals("tooorn", violin.play());
     }
 
     @Test
